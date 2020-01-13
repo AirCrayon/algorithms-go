@@ -2,16 +2,16 @@ package main
 
 import (
 	"fmt"
-	"math"
 )
 
 func sort(source []int) []int {
-	if len(source) < 2 {
+	length := len(source)
+	if length < 2 {
 		return source
 	}
-	middle := int(math.Floor(float64(len(source) / 2)))
+	middle := length / 2
 	left := source[0:middle]
-	right := source[middle:len(source)]
+	right := source[middle:]
 	fmt.Println(left, right)
 	return merge(sort(left), sort(right))
 }
