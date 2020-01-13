@@ -5,6 +5,9 @@
 ![](https://github.com/AirCrayon/algorithms-go/blob/master/sorts/sort.png?raw=true)
 
 十大经典排序算法 概览截图
+
+对于时间复杂度分析不太熟悉的同学，推荐大家去看极客时间《数据结构与算法之美》这门课。
+
 关于时间复杂度：
 
 平方阶 (O(n2)) 排序
